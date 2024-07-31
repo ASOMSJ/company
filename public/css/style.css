@@ -1,0 +1,71 @@
+:root {
+    --black: #000;
+    --semi-black: #191919;
+    --gray: #9c9c9c;
+    --light-gray: #bfbfbf;
+    --blue: #03a9f4;
+}
+
+/* -general- */
+
+body {
+    overflow-x: hidden;
+    font-size: 16px;
+    margin: 0 !important;
+    font-family: "Tajawal", sans-serif;
+    direction: rtl;
+}
+
+* {
+    outline: none;
+    box-sizing: border-box;
+}
+
+
+/* -hero- */
+
+.hero {
+    padding: 100px 90px 0;
+    position: relative;
+    background-image: linear-gradient(rgb(99 99 99 /60%), rgb(0 0 0 /60%)), url("../images/hero.jpg");
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero__container {
+    width: 100%;
+    max-width: 1170px;
+    margin: auto;
+    min-height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.hero__container>h1 {
+    margin-top: 0;
+    margin-bottom: 15px;
+    font-size: 70px;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    direction: rtl;
+}
+
+.hero__container>h3 {
+    margin: 0;
+    font-size: 22px;
+    color: white;
+    text-align: center;
+    direction: rtl;
+}
+
+.hero__container>.down-arrow{
+    position: absolute;
+    bottom: 45px;
+    font-size: 30px;
+    color: var(--blue);
+}
