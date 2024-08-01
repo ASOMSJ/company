@@ -21,7 +21,81 @@ body {
     box-sizing: border-box;
 }
 
+/* -navbar- */
+.navbar {
+    padding: 15px 20px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 9999;
+    background-color: transparent !important;
+    transition: all 0.5s ease;
+}
 
+.navbar__container {
+    width: 100%;
+    max-width: 1170px;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar__container>ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: inline-flex;
+    align-items: center;
+}
+
+.navbar__container>ul>li {
+    font-size: 20px;
+}
+
+.navbar__container .logo {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+
+.navbar__container .logo i {
+    font-size: 45px;
+    color: white;
+    transition: all 0.5s ease;
+}
+
+.navbar__container .logo p {
+    font-size: 30px;
+    color: white;
+    margin-right: 15px;
+    transition: all 0.5s ease;
+}
+.navbar__container>ul>li:not(:last-child){
+    margin-left: 28px;
+}
+.navbar__container>ul>li>a{
+    color: white;
+    text-decoration: none;
+    transition: all 0.5s ease;
+    padding: 10px 15px;
+    border-radius: 5px;
+    position: relative;
+}
+.navbar__container>ul>li>a:hover{
+    color: var(--blue);
+    background-color: white;
+}
+.navbar__container--main{
+    justify-content: space-between !important;
+}
+
+.navbar .active{
+    color: var(--blue);
+    background-color: white;
+}
 /* -hero- */
 
 .hero {
@@ -63,7 +137,7 @@ body {
     direction: rtl;
 }
 
-.hero__container>.down-arrow{
+.hero__container>.down-arrow {
     position: absolute;
     bottom: 45px;
     font-size: 30px;
