@@ -73,10 +73,12 @@ body {
     margin-right: 15px;
     transition: all 0.5s ease;
 }
-.navbar__container>ul>li:not(:last-child){
+
+.navbar__container>ul>li:not(:last-child) {
     margin-left: 28px;
 }
-.navbar__container>ul>li>a{
+
+.navbar__container>ul>li>a {
     color: white;
     text-decoration: none;
     transition: all 0.5s ease;
@@ -84,18 +86,21 @@ body {
     border-radius: 5px;
     position: relative;
 }
-.navbar__container>ul>li>a:hover{
+
+.navbar__container>ul>li>a:hover {
     color: var(--blue);
     background-color: white;
 }
-.navbar__container--main{
+
+.navbar__container--main {
     justify-content: space-between !important;
 }
 
-.navbar .active{
+.navbar .active {
     color: var(--blue);
     background-color: white;
 }
+
 /* -hero- */
 
 .hero {
@@ -142,4 +147,80 @@ body {
     bottom: 45px;
     font-size: 30px;
     color: var(--blue);
+}
+
+/* -services- */
+.services {
+    position: relative;
+    padding: 120px 20px 50px;
+}
+
+.services__container {
+    width: 100%;
+    max-width: 1170px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.services__container>h2 {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+    position: relative;
+    font-size: 35px;
+}
+.services__container>h2::before{
+    content: "";
+    display: block;
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: -10px;
+    margin: auto;
+    width: 28px;
+    height: 4px;
+    background-color: var(--blue);
+}
+
+.services__container>h3 {
+    margin-top: 0;
+    color: var(--gray);
+}
+
+.services-display{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;  
+    margin-top: 50px;
+}
+.services-display__card{
+    width: 50%;
+    display: flex;
+    margin-bottom: 50px;
+}
+.services-display__card-icon{
+    width: 18%;
+}
+.services-display__card-icon>i{
+    font-size: 70px;
+    color: var(--blue);
+}
+
+.services-display__card-info>a{
+    font-size: 25px;
+    color: var(--black); 
+    text-decoration: none;
+    font-weight: bold;
+    transition: all 0.5s ease;
+}
+.services-display__card-info>a:hover{
+    color: var(--blue);
+}
+.services-display__card-info>p{
+   font-size: 18px;
+   margin-bottom: 0;
+   margin-top: 5px;
+   max-width: 80%;
 }

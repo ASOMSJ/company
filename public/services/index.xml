@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>الصفحة الرئيسية | شركة تقنية on شركة تقنية</title>
-    <link>//localhost:1313/</link>
-    <description>Recent content in الصفحة الرئيسية | شركة تقنية on شركة تقنية</description>
+    <title>Services on شركة تقنية</title>
+    <link>//localhost:1313/services/</link>
+    <description>Recent content in Services on شركة تقنية</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 01 Aug 2024 16:15:47 +0300</lastBuildDate>
-    <atom:link href="//localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="//localhost:1313/services/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>UI/UX</title>
       <link>//localhost:1313/services/service4/</link>
