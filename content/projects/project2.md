@@ -3,7 +3,7 @@ title = 'مشروع تجريبي ثاني'
 date = 2024-08-05T15:10:14+03:00
 draft = false
 summary ="هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها."
-thumb = "/images/projects/project2/project-2-2.jpg"
+thumb = "/images/projects/project2/project-2-thumb.jpg"
 flag = "project"
 +++
 
