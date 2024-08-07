@@ -357,3 +357,109 @@ body {
     font-size: 18px;
     line-height: 25px;
 }
+
+/* -project page- */
+.project-hero{
+    padding: 100px 20px 0;
+    background-color: var(--blue);
+}
+.project-hero__container{
+    width: 100%;
+    max-width: 1170px;
+    min-height: 300px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+.project-hero__container h1{
+    color: white;
+}
+.project-intro{
+    padding: 70px 20px 50px;
+}
+.project-intro__container{
+    width: 100%;
+    max-width: 1170px;
+    margin: auto;
+}
+.project-intro__container p{
+    font-style: 22px;
+    text-align: justify;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+.project-intro__container ul{
+   padding: 0;
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+.project-intro__container ul li{
+    font-size: 20px;
+    margin-bottom: 4px;
+}
+.project-gallery{
+    display: flex;
+    margin: 0 -5px;
+}
+.project-gallery>img{
+    width: 50%;
+    height: 400px;
+    object-fit: cover;
+    padding: 5px;
+    cursor: pointer;
+} 
+.project-gallery__small{
+    display: flex;
+    flex-wrap: wrap;
+}
+.project-gallery__small img{
+    width: 50%;
+    height: 200px;
+    object-fit: cover;
+    padding: 5px;
+    cursor: pointer; 
+}
+
+.layer{
+    position: fixed;
+    overflow-y: auto;
+    top: -100%;
+    left: 0;
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+    z-index: 999990;
+     padding: 70px 20px 50px;
+     transition: all 0.5s ease;
+}
+.layer-container{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    max-width: 1170px;
+    margin: auto;
+    display: flex;
+   align-items: center;
+}
+.layer-container i{
+    font-size: 35px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    width: max-content;
+    color: white;
+    cursor: pointer;
+}
+.layer-container img{
+    height: 610px;
+    max-width: 720px;
+    width: 100%;
+    object-fit: contain;
+    margin: auto;
+}
