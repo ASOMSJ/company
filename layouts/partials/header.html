@@ -1,10 +1,10 @@
 {{ $indicator := .Params.flag }}
 {{ $target := "landing-page" }}
-<div class="navbar">
+<nav class="navbar">
     <div class="navbar__container {{ if eq $indicator $target }} navbar__container--main {{ end }}">
         <a href="/" class="logo">
             <i class="fab fa-cloudflare"></i>
-            <p>تقنية</p>
+            <b>تقنية</b>
         </a>
         {{ if eq $indicator $target }}
         <i class="fas fa-bars hide phone-menu"></i>
@@ -16,4 +16,4 @@
         </ul>
         {{ end }}
     </div>
-</div>
+</nav>

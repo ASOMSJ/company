@@ -71,7 +71,7 @@ body {
     transition: all 0.5s ease;
 }
 
-.navbar__container .logo p {
+.navbar__container .logo b {
     font-size: 30px;
     color: white;
     margin-right: 15px;
@@ -101,8 +101,37 @@ body {
 }
 
 .navbar .active {
+    color: var(--blue) !important;
+    background-color: white !important;
+}
+
+.navbar--show {
+    background-color: white !important;
+    box-shadow: 0px 0px 2px var(--light-gray);
+}
+
+
+.navbar--show .active {
+    color: white !important;
+    background-color: var(--blue) !important;
+}
+
+.navbar--show .navbar__container .logo i {
     color: var(--blue);
-    background-color: white;
+}
+
+.navbar--show .navbar__container .logo b {
+    color: var(--blue);
+
+}
+
+.navbar--show .navbar__container>ul>li>a {
+    color: var(--blue);
+}
+
+.navbar--show .navbar__container>ul>li>a:hover {
+    color: white !important;
+    background-color: var(--blue) !important;
 }
 
 /* -hero- */
@@ -508,6 +537,10 @@ body {
     margin: auto;
 }
 
+.layer--show{
+    top: 0% !important;
+}
+
 /* -contact-us- */
 
 .contact-us {
@@ -750,6 +783,78 @@ footer {
 }
 
 @media (max-width:767px) {
+    .show-list {
+        transform: translateY(0%) !important;
+        opacity: 1 !important;
+    }
+
+    .navbar--show-phone {
+        background-color: white !important;
+        box-shadow: 0px 0px 2px var(--light-gray);
+    }
+
+    .navbar--show-phone .navbar__container>ul>li>a {
+        color: var(--blue);
+    }
+    .navbar--show .navbar__container>ul>li>a:hover {
+    color: white !important;
+    background-color: var(--blue) !important;
+}
+
+    .navbar--show-phone .navbar__container .logo i {
+        color: var(--blue);
+    }
+
+    .navbar--show-phone .navbar__container .logo b {
+        color: var(--blue);
+    }
+
+    .navbar--show-phone .phone-menu {
+        color: var(--blue);
+    }
+
+    .navbar--show .navbar__container>ul {
+        background-color: white;
+    }
+    .navbar--show .navbar__container>ul>li>a:hover {
+        color: var(--blue)  !important;
+        background-color: white !important;
+    }
+    .navbar--show .active {
+        color: var(--blue) !important;
+        background-color: white !important;
+    }
+
+    .navbar__container>ul>li:not(:last-child){
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+    .navbar__container>ul>li>a{
+        padding: 8px 10px 8px 0;
+        color: var(--blue);
+    }
+    .navbar__container>ul>li>a:hover{
+        color: var(--blue) !important;
+        background-color: white !important;
+    }
+    .navbar__container>ul>li>a::before{
+        content: " ";
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        margin: auto;
+        height: 50%;
+        width: 5px;
+        background-color: transparent;
+        transition: all 0.5s ease;
+    }
+    .active{
+        padding-left: 15px !important;
+    }
+    .active::before{
+        background-color: var(--blue);
+    }
     .phone-menu {
         color: white;
         display: flex;
@@ -795,41 +900,52 @@ footer {
     .services-display__card-icon>i {
         font-size: 50px;
     }
-    .services-display__card>h3{
+
+    .services-display__card>h3 {
         text-align: center;
     }
-    .service-header>h1{
+
+    .service-header>h1 {
         text-align: center;
     }
-    .project-card{
+
+    .project-card {
         width: 100%;
     }
-    .project-gallery{
+
+    .project-gallery {
         flex-wrap: wrap;
     }
-    .project-gallery>img{
+
+    .project-gallery>img {
         width: 100%;
     }
-    .project-gallery__small>img{
+
+    .project-gallery__small>img {
         width: 100%;
         height: 400px;
     }
-    .project-hero__container>h1{
+
+    .project-hero__container>h1 {
         text-align: center;
     }
-    footer>.footer-container{
+
+    footer>.footer-container {
         flex-wrap: wrap;
         flex-direction: column-reverse;
     }
-    footer>.footer-container>div{
+
+    footer>.footer-container>div {
         width: 100%;
     }
-    footer>.footer-container>div:first-child{
+
+    footer>.footer-container>div:first-child {
         justify-content: center;
     }
-    footer>.footer-container>div:last-child{
+
+    footer>.footer-container>div:last-child {
         justify-content: center;
         margin-bottom: 23px;
     }
-    
+
 }
