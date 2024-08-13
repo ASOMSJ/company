@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Services on شركة تقنية</title>
-    <link>//localhost:1313/services/</link>
+    <link>/services/</link>
     <description>Recent content in Services on شركة تقنية</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 01 Aug 2024 16:15:47 +0300</lastBuildDate>
-    <atom:link href="//localhost:1313/services/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="/services/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>UI/UX</title>
-      <link>//localhost:1313/services/service4/</link>
+      <link>/services/service4/</link>
       <pubDate>Thu, 01 Aug 2024 16:15:47 +0300</pubDate>
-      <guid>//localhost:1313/services/service4/</guid>
+      <guid>/services/service4/</guid>
       <description>هناك حقيقة مثبتة هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها. ولذلك يتم استخدام طريقة لوريم إيبسوم لأنها تعطي توزيعاَ طبيعياَ -إلى حد ما- للأحرف عوضاً عن استخدام &amp;ldquo;هنا يوجد محتوى نصي، هنا يوجد محتوى نصي&amp;rdquo; فتجعلها تبدو (أي الأحرف) وكأنها نص مقروء. العديد من برامح النشر المكتبي وبرامح تحرير صفحات الويب تستخدم لوريم إيبسوم بشكل إفتراضي كنموذج عن النص، وإذا قمت بإدخال &amp;ldquo;lorem ipsum&amp;rdquo; في أي محرك بحث ستظهر العديد من المواقع الحديثة العهد في نتائج البحث.</description>
     </item>
     <item>
       <title>دعم تقني</title>
-      <link>//localhost:1313/services/service3/</link>
+      <link>/services/service3/</link>
       <pubDate>Thu, 01 Aug 2024 16:15:40 +0300</pubDate>
-      <guid>//localhost:1313/services/service3/</guid>
+      <guid>/services/service3/</guid>
       <description>هناك حقيقة مثبتة هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها. ولذلك يتم استخدام طريقة لوريم إيبسوم لأنها تعطي توزيعاَ طبيعياَ -إلى حد ما- للأحرف عوضاً عن استخدام &amp;ldquo;هنا يوجد محتوى نصي، هنا يوجد محتوى نصي&amp;rdquo; فتجعلها تبدو (أي الأحرف) وكأنها نص مقروء. العديد من برامح النشر المكتبي وبرامح تحرير صفحات الويب تستخدم لوريم إيبسوم بشكل إفتراضي كنموذج عن النص، وإذا قمت بإدخال &amp;ldquo;lorem ipsum&amp;rdquo; في أي محرك بحث ستظهر العديد من المواقع الحديثة العهد في نتائج البحث.</description>
     </item>
     <item>
       <title>برمجة تطبيقات</title>
-      <link>//localhost:1313/services/service2/</link>
+      <link>/services/service2/</link>
       <pubDate>Thu, 01 Aug 2024 16:15:33 +0300</pubDate>
-      <guid>//localhost:1313/services/service2/</guid>
+      <guid>/services/service2/</guid>
       <description>هناك حقيقة مثبتة هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها. ولذلك يتم استخدام طريقة لوريم إيبسوم لأنها تعطي توزيعاَ طبيعياَ -إلى حد ما- للأحرف عوضاً عن استخدام &amp;ldquo;هنا يوجد محتوى نصي، هنا يوجد محتوى نصي&amp;rdquo; فتجعلها تبدو (أي الأحرف) وكأنها نص مقروء. العديد من برامح النشر المكتبي وبرامح تحرير صفحات الويب تستخدم لوريم إيبسوم بشكل إفتراضي كنموذج عن النص، وإذا قمت بإدخال &amp;ldquo;lorem ipsum&amp;rdquo; في أي محرك بحث ستظهر العديد من المواقع الحديثة العهد في نتائج البحث.</description>
     </item>
     <item>
       <title>تصميم مواقع</title>
-      <link>//localhost:1313/services/service1/</link>
+      <link>/services/service1/</link>
       <pubDate>Thu, 01 Aug 2024 16:15:20 +0300</pubDate>
-      <guid>//localhost:1313/services/service1/</guid>
+      <guid>/services/service1/</guid>
       <description>هناك حقيقة مثبتة هناك حقيقة مثبتة منذ زمن طويل وهي أن المحتوى المقروء لصفحة ما سيلهي القارئ عن التركيز على الشكل الخارجي للنص أو شكل توضع الفقرات في الصفحة التي يقرأها. ولذلك يتم استخدام طريقة لوريم إيبسوم لأنها تعطي توزيعاَ طبيعياَ -إلى حد ما- للأحرف عوضاً عن استخدام &amp;ldquo;هنا يوجد محتوى نصي، هنا يوجد محتوى نصي&amp;rdquo; فتجعلها تبدو (أي الأحرف) وكأنها نص مقروء. العديد من برامح النشر المكتبي وبرامح تحرير صفحات الويب تستخدم لوريم إيبسوم بشكل إفتراضي كنموذج عن النص، وإذا قمت بإدخال &amp;ldquo;lorem ipsum&amp;rdquo; في أي محرك بحث ستظهر العديد من المواقع الحديثة العهد في نتائج البحث.</description>
     </item>
   </channel>
